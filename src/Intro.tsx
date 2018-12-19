@@ -7,29 +7,22 @@ export function Intro() {
 	return (
 		<div className={cx(helperStyles.fill, styles.intro)}>
 			<div className={styles.container}>
-				<p>My friend,</p>
+				<p>Jamie,</p>
 				<p>
-					What if I told you that parallel universes do exist, and that we can
-					access them?
+					I'm so sorry how long it's been since we last spoke. I've had my head
+					down on my research for quite some time.
 				</p>
 				<p>
-					I've had a breakthrough. A breakthrough that will change not just our
-					universe, but all of them.
+					Remember back 16 years ago, the team in Beijing proved the existence
+					of parallel universes. Remember I started working on a theory based on
+					their paper about how these other universes could be accessed.
 				</p>
 				<p>
-					It's incredible. Every universe that could exist, does. Every decision
-					you've ever made, there's a universe where you made the opposite
-					decision. These universes fork off each other at an infathomable rate.
-					There are infinite universes that are growing at an infinite rate. And
-					now, we have a chance to access them.
+					Well... It's true, it can and has been done. But not by us, by other
+					universes. Jamie, we've been accessed by them.
 				</p>
-				<p>
-					In the multiverse, time is basically meaningless. We can move through
-					time as easily as we walk from one side of the room to the other. By
-					accessing these other universes, we can see the consequences of every
-					decision we ever make before we even make it.
-				</p>
-				<p>We have work to do. Please join me.</p>
+				<p>We have work to do. Please come.</p>
+				<p className={styles.signature}>– Flores</p>
 			</div>
 			<Link className={styles.next} to="/instructions">
 				&rarr;
@@ -51,12 +44,11 @@ let styles = {
 	container: css`
 		position: relative;
 		font-family: "Reenie Beanie", Georgia, "Times New Roman", Times, serif;
-		font-size: 5vmin;
-		line-height: 1.8;
+		font-size: 8vmin;
+		line-height: 1.4;
 		max-width: 30em;
 		margin: 0 auto;
-		padding: 2em;
-		text-align: justify;
+		padding: 3vw;
 		-webkit-font-smoothing: antialiased;
 	`,
 
@@ -69,5 +61,9 @@ let styles = {
 		font-weight: 900;
 		text-decoration: none;
 		color: white;
+	`,
+
+	signature: css`
+		text-align: right;
 	`,
 }

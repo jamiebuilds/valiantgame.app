@@ -7,7 +7,7 @@
 	"author": "Jamie Kyle <me@thejameskyle.com>",
 	"license": "MIT",
 	"scripts": {
-		"build": "parcel build src/index.html",
+		"build": "parcel build src/index.html && cp _redirects dist",
 		"start": "parcel src/index.html"
 	},
 	"dependencies": {

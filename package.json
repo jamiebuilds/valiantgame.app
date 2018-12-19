@@ -1,0 +1,27 @@
+{
+	"name": "valiantgame.app",
+	"version": "0.0.0",
+	"description": "The Valiant Game App",
+	"main": "index.js",
+	"repository": "https://github.com/jamiebuilds/valiantgame.app",
+	"author": "Jamie Kyle <me@thejameskyle.com>",
+	"license": "MIT",
+	"scripts": {
+		"start": "parcel src/index.html"
+	},
+	"dependencies": {
+		"@reach/router": "^1.2.1",
+		"emotion": "^10.0.5",
+		"react": "^16.7.0-alpha.2",
+		"react-dom": "^16.7.0-alpha.2",
+		"react-transition-group": "^2.3.0-beta.0"
+	},
+	"devDependencies": {
+		"@types/reach__router": "^1.2.2",
+		"@types/react": "^16.7.17",
+		"@types/react-dom": "^16.0.11",
+		"@types/react-transition-group": "^2.0.14",
+		"parcel": "^1.11.0",
+		"typescript": "^3.2.2"
+	}
+}
